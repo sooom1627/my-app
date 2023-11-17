@@ -17,4 +17,17 @@ const config: Config = {
   },
   plugins: [],
 }
+
+module.exports = {
+  purge: ['./**/*.html', './**/*.vue', './**/*.jsx'],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
+
 export default config
